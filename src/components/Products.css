@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    align-items: center;
+    text-align: center;
+}
+ p{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 1%;
+ }
+
+ .container{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 1rem;
+    margin: 5%;
+    width: auto;
+    height: fit-content; 
+}
+
+ .posts{
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.3);
+    width: 19rem;
+    height: 16rem;
+ }
+
+img{
+    width: 19rem;
+    height: 13rem;
+}
+
+/* pagination starts */
+
+.pagination {
+    display: inline-block;
+    margin-left:40%;
+    background-color: rgb(247, 248, 249);
+  }
+  
+  .pagination a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  ul.pagination {
+    padding: 1% 2%;
+    list-style: none;
+
+  }
+  ul.pagination li {
+    display: inline;
+}
+
+  
+  /* Add a grey background color on mouse-over */
+  .pagination a:hover:not(.active) {
+    width: auto;
+    height: auto;
+    background-color: rgb(24, 91, 30);
+}
+
+/* pagination ends */
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #8c8081;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background:#8c8081;
+  }
+
+
+  
