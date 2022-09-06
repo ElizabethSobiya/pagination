@@ -22,13 +22,13 @@ h1{
     display: grid;
     grid-template-columns: repeat(3, 2fr);
     gap: 1rem;
-    margin: 5%;
+    margin: 2% 5% 0% 10%;
     width: auto;
     height: fit-content; 
 }
 
  .posts{
-    box-shadow: 0 0 1em rgba(0, 0, 0, 0.3);
+    /* box-shadow: 0 0 1em rgba(0, 0, 0, 0.3); */
     width: 19rem;
     height: 16rem;
  }
@@ -36,6 +36,11 @@ h1{
 img{
     width: 19rem;
     height: 13rem;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
 }
 
 /* pagination starts */
@@ -66,6 +71,7 @@ img{
     width: auto;
     height: auto;
     background-color: rgb(24, 91, 30);
+    color: white;
 }
 
 /* pagination ends */
